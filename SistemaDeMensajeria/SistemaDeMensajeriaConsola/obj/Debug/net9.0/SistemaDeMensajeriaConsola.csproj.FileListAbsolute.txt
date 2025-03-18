@@ -16,3 +16,4 @@ C:\Users\luisl\OneDrive\Documentos\SistemaDeMensajeria\SistemaDeMensajeria\Siste
 C:\Users\luisl\OneDrive\Documentos\SistemaDeMensajeria\SistemaDeMensajeria\SistemaDeMensajeriaConsola\obj\Debug\net9.0\SistemaDeMensajeriaConsola.pdb
 C:\Users\luisl\OneDrive\Documentos\SistemaDeMensajeria\SistemaDeMensajeria\SistemaDeMensajeriaConsola\obj\Debug\net9.0\SistemaDeMensajeriaConsola.genruntimeconfig.cache
 C:\Users\luisl\OneDrive\Documentos\SistemaDeMensajeria\SistemaDeMensajeria\SistemaDeMensajeriaConsola\obj\Debug\net9.0\ref\SistemaDeMensajeriaConsola.dll
+C:\Users\luisl\OneDrive\Documentos\SistemaDeMensajeria\SistemaDeMensajeria\SistemaDeMensajeriaConsola\obj\Debug\net9.0\SistemaDeMensajeriaConsola.sourcelink.json

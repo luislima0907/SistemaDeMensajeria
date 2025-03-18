@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDeMensajeriaWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a89ddb6f858c5812e88350340ca90847153c8d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c83b91d82d50d9df76a6b88c8317d2814f1490b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDeMensajeriaWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDeMensajeriaWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

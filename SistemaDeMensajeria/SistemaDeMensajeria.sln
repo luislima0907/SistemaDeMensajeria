@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeMensajeriaConsola", "SistemaDeMensajeriaConsola\SistemaDeMensajeriaConsola.csproj", "{C6728285-EDED-4D9E-854D-C3759E0701FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeMensajeriaWeb", "SistemaDeMensajeriaWeb\SistemaDeMensajeriaWeb.csproj", "{EC3420C1-1D35-4FA3-99F0-0B87AD917E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6728285-EDED-4D9E-854D-C3759E0701FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6728285-EDED-4D9E-854D-C3759E0701FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6728285-EDED-4D9E-854D-C3759E0701FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6728285-EDED-4D9E-854D-C3759E0701FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3420C1-1D35-4FA3-99F0-0B87AD917E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3420C1-1D35-4FA3-99F0-0B87AD917E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3420C1-1D35-4FA3-99F0-0B87AD917E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3420C1-1D35-4FA3-99F0-0B87AD917E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

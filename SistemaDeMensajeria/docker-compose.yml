@@ -1,0 +1,27 @@
+﻿services:
+  rabbitmq:
+    image: rabbitmq:3.8.9-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: systemesgg
+      RABBITMQ_DEFAULT_PASS: messag3312j$
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+  web:
+    build:
+      context: ./SistemaDeMensajeriaWeb
+    ports:
+      - "5000:8080"
+    depends_on:
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - RabbitMQ__HostName=rabbitmq
+      - RabbitMQ__UserName=systemesgg
+      - RabbitMQ__Password=messag3312j$
+
+volumes:
+  rabbitmq_data:

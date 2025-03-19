@@ -163,4 +163,5 @@ Una vez que los contenedores estén en ejecución, puede acceder a la interfaz w
     ```
 
 ## Link para ver las diapositivas y el diagrama de arquitectura
-- https://www.canva.com/design/DAGiC0DGgSY/NoBuY5AdlxJ1uv0e7Ye6dw/edit?utm_content=DAGiC0DGgSY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- **Diapositivas:** https://www.canva.com/design/DAGiC0DGgSY/NoBuY5AdlxJ1uv0e7Ye6dw/edit?utm_content=DAGiC0DGgSY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- **Diagrama de arquitectura:** https://drive.google.com/drive/folders/1BsdZ4HAYh8EIXza7kksBasOIyngDlBw3?usp=sharing

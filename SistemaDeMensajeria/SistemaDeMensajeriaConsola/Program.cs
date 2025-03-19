@@ -12,21 +12,21 @@ async Task Main()
         UserName = "systemesgg",
         Password = "messag3312j$"
     };
-
+    
     using var connection = await factory.CreateConnectionAsync();
     using var channel = await connection.CreateChannelAsync();
-
+    
     string queueName = "mensajes_queue";
-
+    
     await channel.QueueDeclareAsync(queue: queueName,
         durable: true,
         exclusive: false,
         autoDelete: false,
         arguments: null);
-
+    
     Console.WriteLine("Sistema de Mensajería con RabbitMQ");
     Console.WriteLine("Escriba un mensaje, o bien, escriba 'salir' o presionar enter para terminar");
-
+    
     while (true)
     {
         Console.Write("> ");
@@ -34,7 +34,7 @@ async Task Main()
         
         if (string.IsNullOrWhiteSpace(mensaje) || mensaje.ToLower() == "salir")
             break;
-
+    
         var body = Encoding.UTF8.GetBytes(mensaje);
         
         await channel.BasicPublishAsync(
@@ -45,7 +45,7 @@ async Task Main()
         );
         Console.WriteLine($"Mensaje enviado: {mensaje}");
     }
-
+    
     Console.WriteLine("Saliendo del programa...");
 }
 
